@@ -1,0 +1,36 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "React and TypeScript example starter project",
+  "keywords": ["typescript", "react", "starter"],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "loader-utils": "3.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "0.556.0",
+    "recharts": "3.5.1",
+    "jspdf": "3.0.4",
+    "html2canvas": "1.4.1",
+    "react-is": "19.2.1",
+    "@react-three/fiber": "9.4.2",
+    "@react-three/drei": "10.7.7",
+    "three": "0.182.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.15",
+    "typescript": "4.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
